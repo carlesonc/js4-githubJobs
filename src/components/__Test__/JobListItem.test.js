@@ -19,7 +19,7 @@ describe("Test JobListItem component", () => {
         <JobListItem key={job.id} job={job} />
       </BrowserRouter>
     );
-    expect(wrapper.find("Link").prop("to")).toBe(`/${job.id}`);
+    expect(wrapper.find("Link").prop("to")).toBe(`/js4-githubJobs/${job.id}`);
     expect(wrapper.find("Link").text()).toBe(`${job.title}`);
   });
 });
