@@ -13,7 +13,7 @@ export default function JobDetailPage(props) {
 
   return (
     <>
-      <Link to={`/`}>Go Back</Link>
+      <Link to={`/js4-githubJobs/`}>Go Back</Link>
       {jobDetails ? <JobDetailItem jobDetails={jobDetails} /> : <p>Something went wrong, please try again.</p>}
     </>
   );
