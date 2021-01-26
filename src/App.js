@@ -9,8 +9,8 @@ function App() {
     <div style={{ margin: 15 }}>
       <h1>GitHub Job Listing</h1>
       <Switch>
-        <Route path="/:id" component={JobDetailPage} />
-        <Route path="/" component={JobListPage} />
+        <Route path="/js4-githubJobs/:id" component={JobDetailPage} />
+        <Route path="/js4-githubJobs/" component={JobListPage} />
       </Switch>
     </div>
   );
